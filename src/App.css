@@ -12,6 +12,7 @@
 .switch-board {
   background-color: rgba(245, 245, 245, 0.822); 
   height: 55px;
+  width: 38px;
   /* display: flex; */
   /* align-items: flex-end; */
   position: relative;
@@ -21,10 +22,14 @@
 }
 
 .switch-board > button {
-  background-color: #91e5fc;
+  /* background-color: #91e5fc; */
   /* background-color: #56637b; */
+  /* border-style: outset; */
+  padding: 0;
+  padding: 2px;
+  border: 2px dashed white;
   border-radius: 4px;
-  width: 40px;
+  width: 100%;
   position: relative;
   bottom: -21px;
   /* animation: slide-down 2s; */
